@@ -1,0 +1,130 @@
+body {
+    background-color: #f1e5d4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+  }
+
+.calculator {
+    height: 540px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+
+}
+
+.frase {
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        align-items: center;
+      
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        text-align: center;
+        padding-bottom:23px ;
+}
+
+.output {
+    background-color:#f9f3ec;
+    border-radius: 40px;
+    height: 90px;
+}
+
+.result {
+    color: rgb(5, 6, 4);
+    font-size: 25px;
+    height: 40px;
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.input {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    height: 40px;
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+.keys {
+    display: grid;
+    gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 8px;
+}
+
+.keys button:first-child {
+    color: #000000;
+    grid-column-end: 3;
+    grid-column-start: 1;
+    background-color:#faf0e6;
+  }
+
+  .keys button:nth-child(2) {
+    color: #000000;
+    background-color:#faf0e6;
+  }
+
+  .keys button:nth-child(3) {
+    color: #050505;
+    background-color:#faf0e6;
+  }
+
+  .keys button:nth-child(7) {
+    color: #050505;
+    background-color:#faf0e6;
+  }
+
+  .keys button:nth-child(11) {
+    color: #050505;
+    background-color:#faf0e6;
+  }
+
+  .keys button:nth-child(15) {
+    color: #050505;
+    grid-row: 4 / 6;
+    grid-column: 4 / 4;
+    background-color:#faf0e6;
+  }
+
+  .keys button:nth-child(16) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+button {
+    min-height: 65px;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+  button:hover {
+    color: rgb(7, 3, 3);
+    background-color:#f9f3ec;
+  }
+
+  h2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
